@@ -1,0 +1,256 @@
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-size: 16px;
+  min-height: 100vh;
+  font-family: Verdana, Tahoma, sans-serif;
+  color: #333;
+}
+
+body a {
+  text-decoration: none;
+}
+
+header {
+  background-color: #323135;
+  color: #f59a00;
+  position: fixed;
+  z-index: 10;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 65px;
+}
+
+header .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+header .container .pic {
+  padding: 10px;
+}
+
+header .container a {
+  color: #f59a00;
+  width: 100px;
+  text-align: center;
+  line-height: 50px;
+  display: block;
+}
+
+header .container a:hover {
+  opacity: 0.6;
+  background-color: #f59a00;
+  color: #323135;
+  border-radius: 5px;
+}
+
+header .container nav ul {
+  margin: 0;
+  padding: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+}
+
+header .container nav ul li {
+  display: list-item;
+}
+
+.main {
+  background-color: #f59a00;
+  color: #fff;
+  text-align: center;
+  padding-top: 60px;
+}
+
+.main h1 {
+  margin: 0;
+}
+
+.main p {
+  margin: 0;
+}
+
+.main img {
+  width: 288px;
+  vertical-align: bottom;
+}
+
+.main .btn {
+  background-color: #fff;
+  color: #f59a00;
+  display: block;
+  width: 140px;
+  line-height: 44px;
+  margin: 40px auto 40px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+}
+
+.main .btn:hover {
+  opacity: 0.8;
+}
+
+.features section {
+  padding-bottom: 64px;
+}
+
+.features img {
+  width: 100%;
+}
+
+.features h1 {
+  text-align: center;
+  padding: 64px 0;
+  font-weight: normal;
+}
+
+.features p {
+  line-height: 1.8;
+}
+
+.features .container {
+  margin: 0 32px;
+}
+
+.members {
+  background-color: #f2f2f3;
+}
+
+.members h1 {
+  text-align: center;
+  padding: 64px 0;
+  font-weight: normal;
+}
+
+.members ul {
+  list-style: none;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+.members ul li {
+  padding-bottom: 64px;
+}
+
+.members ul li h2 {
+  font-size: 16px;
+}
+
+.members img {
+  width: 160px;
+  border-radius: 50%;
+}
+
+.call-to-action {
+  background-color: #f59a00;
+  color: #fff;
+  text-align: center;
+  padding: 64px 0;
+}
+
+.call-to-action .btn {
+  background-color: #fff;
+  color: #f59a00;
+  display: block;
+  width: 140px;
+  line-height: 44px;
+  margin: 40px auto 40px;
+  font-size: 14px;
+  font-weight: bold;
+  border-radius: 4px;
+  margin: 0 auto;
+}
+
+.call-to-action .btn:hover {
+  opacity: 0.8;
+}
+
+.call-to-action h1 {
+  font-weight: normal;
+}
+
+footer {
+  background-color: #323135;
+  color: #98969c;
+  padding: 64px 0;
+  text-align: center;
+}
+
+@media (min-width: 900px) {
+  .main .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 800px;
+    margin: 0 auto;
+  }
+  .main .info {
+    width: 60%;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+  }
+  .main .pic {
+    width: 40%;
+  }
+  .features .container {
+    width: 800px;
+    margin: 0 auto;
+  }
+  .features .container section {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .features .container section:nth-child(even) {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: row-reverse;
+            flex-direction: row-reverse;
+  }
+  .features .info {
+    width: 50%;
+  }
+  .features .info h1 {
+    padding: 0;
+  }
+  .features .info p {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .features .pic {
+    width: 50%;
+  }
+  .members ul {
+    width: 800px;
+    margin: 0 auto;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  .members ul li {
+    width: 250px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
